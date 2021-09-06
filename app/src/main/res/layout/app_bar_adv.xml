@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#3895d3"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lin"
+                    android:orientation="horizontal">
+
+            <LinearLayout android:layout_width="150dp"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+
+                          android:layout_marginLeft="5dp"
+                          android:layout_marginTop="2dp"
+                          android:gravity="center_vertical">
+
+                <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        app:srcCompat="@drawable/advertiser_logo"
+                        android:id="@+id/adv_logo"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textStyle="italic"
+                        android:textSize="15dp"
+                        android:id="@+id/name"
+                        android:layout_margin="5dp"
+                        android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Advertiser"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:id="@+id/toolbar_adv"
+                        android:textColor="#FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        app:srcCompat="@drawable/money"
+                        android:id="@+id/earn_logo"/>
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_gravity="center_vertical"
+                        app:srcCompat="@drawable/logout_white"
+                        android:id="@+id/logout"/>
+
+    </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</LinearLayout>

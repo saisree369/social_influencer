@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Home">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <include
+                layout="@layout/sub_home"
+                android:id="@+id/add"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    />
+
+    <include
+            layout="@layout/sub_brand"
+            android:id="@+id/brand"
+            android:layout_margin="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+    />
+
+    <include
+            layout="@layout/sub_influencer"
+            android:id="@+id/brand"
+            android:layout_margin="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+    />
+
+</LinearLayout>
+    </ScrollView>
+    </FrameLayout>

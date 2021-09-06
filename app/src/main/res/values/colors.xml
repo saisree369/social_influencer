@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey">#d3d3d3</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="hintTextColor">#C8D4D6</color>
+    <color name="headerTextColor">#ECE3E3</color>
+    <color name="headerBackground">#240b36</color>
+    <color name="profileBackground">#FFFFFF</color>
+    <color name="profileTextBackground">#F0F2F4</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="linkTextColor">#C8DCE9</color>
+    <color name="peech">#fdab9f</color>
+    <color name="light_blue">#92dff3</color>
+    <color name="cyan">#7fffd4</color>
+    <color name="lavendar">#c8a2c8</color>
+
+</resources>

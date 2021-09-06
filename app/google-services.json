@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "532797736555",
+    "firebase_url": "https://demoapp-6c4cb-default-rtdb.firebaseio.com",
+    "project_id": "demoapp-6c4cb",
+    "storage_bucket": "demoapp-6c4cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532797736555:android:525294f014e1ee00f6932e",
+        "android_client_info": {
+          "package_name": "com.practice.socialinfluencerr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532797736555-ateoufqgsvjcp8sn6os9rshhcb8dmtqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practice.socialinfluencerr",
+            "certificate_hash": "25abb7437c217ce49035b20740c59991eb5d0ce9"
+          }
+        },
+        {
+          "client_id": "532797736555-fhe2p70n94hb2b2egvqhc8fkafi7de23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhYsdh7FqjJlQFxd0Q6aIDtm-wTwcdxj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532797736555-fhe2p70n94hb2b2egvqhc8fkafi7de23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

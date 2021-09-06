@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Social Advertiser</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login_title">Login</string>
+    <string name="create_act">Create Account</string>
+
+    <string name="title_1">Fulfill your desire with Quality</string>
+    <string name="title_2">Make it a habit and enhance innovation</string>
+    <string name="title_3">Best product ever</string>
+    <string name="title_4">Your health is our wealth</string>
+
+    <string name="text_1">LED</string>
+    <string name="text_2">Newspaper</string>
+    <string name="text_3">Fuels</string>
+    <string name="text_4">Hospital</string>
+
+
+
+    <string name="data">
+        Scale your internet business with easy, unique and original product content at an affordable cost.
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="category_list">
+        <item>Food</item>
+        <item>Travel</item>
+        <item>Beauty</item>
+        <item>Technology</item>
+        <item>Clothing</item>
+        <item>Lifestyle</item>
+        <item>Crafts</item>
+
+    </string-array>
+    <string name="selected_item">Selected item:</string>
+
+    <string name="product">A product description is the marketing copy used to describe a product’s value proposition to
+        potential customers. A compelling product description provides customers with details around features,
+        problems it solves and other benefits to help generate a sale.
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="flashMode">FlashMode</string>
+    <string name="sceneOn">SceneOn</string>
+    <string name="sceneOff">SceneOff</string>
+    <string name="warning_str">CameraKit is not installed or not support this device.</string>
+    <string name="mode_not_support">Current mode is not supported, please update CameraKit!</string>
+
+</resources>

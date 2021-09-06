@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/inf_pic"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Name"
+                      android:id="@+id/inf_name"
+                      android:textStyle="bold"
+                      android:layout_margin="5dp"
+                      android:textColor="#000000"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Available"
+            android:layout_marginTop="2dp"
+                      android:layout_marginLeft="3dp"
+            android:textColor="#74b72e"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+
+                      android:layout_margin="5dp"
+                      android:layout_marginLeft="150dp">
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+            android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="City"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:text="Budget"
+                          android:textAlignment="center"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:text="Connects"
+                          android:textAlignment="center"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:text="Followers"
+                          android:textAlignment="center"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+
+                      android:layout_margin="5dp"
+                      android:layout_marginLeft="300dp">
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:id="@+id/inf_city"
+                          android:text="Mumbai"
+                          android:textColor="@color/black"
+                          android:textAlignment="center"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:id="@+id/inf_budget"
+                          android:textColor="@color/black"
+                          android:text="0 - 10K"
+                          android:textAlignment="center"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:text="10"
+                          android:textColor="@color/black"
+                          android:id="@+id/inf_connects"
+                          android:textAlignment="center"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="110dp" android:layout_height="30dp"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="30dp"
+                          android:layout_gravity="center">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:id="@+id/inf_followers"
+                          android:textColor="@color/black"
+                          android:text="12K"
+                          android:textAlignment="center"
+                          android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <LinearLayout android:layout_width="80dp" android:layout_height="20dp"
+                  android:background="@drawable/curve_shape3"
+                    android:layout_marginLeft="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Food"
+        android:layout_gravity="center"
+        android:textSize="12dp"
+                  android:layout_marginLeft="25dp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="80dp" android:layout_height="20dp"
+                  android:background="@drawable/curve_shape3"
+                  android:layout_marginLeft="25dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAlignment="center"
+                  android:text="Travel"
+                  android:layout_gravity="center"
+                  android:textSize="12dp"
+                  android:layout_marginLeft="25dp"
+                  android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="80dp" android:layout_height="20dp"
+                  android:background="@drawable/curve_shape3"
+                  android:layout_marginLeft="25dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAlignment="center"
+                  android:text="Beauty"
+                  android:layout_gravity="center"
+                  android:textSize="12dp"
+                  android:layout_marginLeft="25dp"
+                  android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Instagram"
+              android:maxLines="1"
+              android:textColor="@color/peech"
+              android:textStyle="bold"
+              android:textSize="18dp"
+              android:layout_margin="2dp"
+            />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="About"
+              android:maxLines="1"
+              android:textColor="@color/black"
+              android:textStyle="bold"
+              android:textSize="16dp"
+              android:layout_margin="2dp"
+              android:layout_marginTop="5dp"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="5dp"
+
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Post"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="300"
+                      android:id="@+id/inf_insta_post"
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="3dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Following"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="2K"
+                      android:id="@+id/inf_insta_following"
+
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="3dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Followers"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="4K"
+                      android:id="@+id/inf_insta_followers"
+
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Media"
+              android:maxLines="1"
+              android:textColor="@color/black"
+              android:textStyle="bold"
+              android:textSize="16dp"
+              android:layout_margin="2dp"
+              android:layout_marginTop="5dp"/>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                       xmlns:app="http://schemas.android.com/apk/res-auto"
+                                       android:id="@+id/cardView1"
+                                       app:cardUseCompatPadding="true"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="220dp"
+                                       android:layout_gravity="center">
+
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_margin="5dp"
+                      android:layout_gravity="center">
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/insta_pic_1"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="6dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/insta_pic_2"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/insta_pic_3"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                            android:layout_gravity="center">
+
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/insta_pic_4"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="6dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/insta_pic_5"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/insta_pic_6"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Youtube"
+              android:maxLines="1"
+              android:textColor="@color/peech"
+              android:textStyle="bold"
+              android:textSize="18dp"
+              android:layout_margin="2dp"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="About"
+              android:maxLines="1"
+              android:textColor="@color/black"
+              android:textStyle="bold"
+              android:textSize="16dp"
+              android:layout_margin="2dp"
+              android:layout_marginTop="5dp"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="5dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Post"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="300"
+                      android:id="@+id/inf_youtube_post"
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="3dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Following"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="2K"
+                      android:id="@+id/inf_youtube_following"
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="3dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Followers"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="4K"
+                      android:id="@+id/inf_youtube_followers"
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Media"
+              android:maxLines="1"
+              android:textColor="@color/black"
+              android:textStyle="bold"
+              android:textSize="16dp"
+              android:layout_margin="2dp"
+              android:layout_marginTop="5dp"/>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                       xmlns:app="http://schemas.android.com/apk/res-auto"
+                                       android:id="@+id/cardView2"
+                                       app:cardUseCompatPadding="true"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="220dp"
+                                       android:layout_gravity="center">
+
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                    android:layout_gravity="center">
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_margin="5dp">
+
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/utube_pic_1"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="6dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/utube_pic_2"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/utube_pic_3"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_margin="5dp">
+
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/utube_pic_4"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="6dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/utube_pic_5"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/utube_pic_6"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Twitter"
+              android:maxLines="1"
+              android:textColor="@color/peech"
+              android:textStyle="bold"
+              android:textSize="18dp"
+              android:layout_margin="2dp"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="About"
+              android:maxLines="1"
+              android:textColor="@color/black"
+              android:textStyle="bold"
+              android:textSize="16dp"
+              android:layout_margin="2dp"
+              android:layout_marginTop="5dp"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="5dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Post"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="300"
+                      android:id="@+id/inf_twitter_post"
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="3dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Following"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="2K"
+                      android:id="@+id/inf_twitter_following"
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="100dp" android:layout_height="70dp"
+                      android:layout_margin="3dp"
+                      android:orientation="vertical"
+
+                      android:background="@drawable/curve_shape2">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Followers"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+            <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="4K"
+                      android:id="@+id/inf_twitter_followers"
+                      android:textColor="@color/black"
+                      android:layout_gravity="center"
+                      android:layout_margin="3dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Media"
+              android:maxLines="1"
+              android:textColor="@color/black"
+              android:textStyle="bold"
+              android:textSize="16dp"
+              android:layout_margin="2dp"
+              android:layout_marginTop="5dp"/>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                       xmlns:app="http://schemas.android.com/apk/res-auto"
+                                       android:id="@+id/cardView3"
+                                       app:cardUseCompatPadding="true"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="220dp"
+                                       android:layout_gravity="center">
+
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_margin="5dp"
+            android:layout_gravity="center">
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        >
+
+        <ImageView android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:id="@+id/twitter_pic_1"
+                   android:background="@drawable/background_splash"
+                   android:layout_marginTop="16dp"
+                   android:layout_marginLeft="6dp"
+                   android:scaleType="fitXY"
+                   android:layout_gravity="left"/>
+        <ImageView android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:id="@+id/twitter_pic_2"
+                   android:background="@drawable/background_splash"
+                   android:layout_marginTop="16dp"
+                   android:layout_marginLeft="35dp"
+                   android:scaleType="fitXY"
+                   android:layout_gravity="left"/>
+        <ImageView android:layout_width="80dp"
+                   android:layout_height="80dp"
+                   android:id="@+id/twitter_pic_3"
+                   android:background="@drawable/background_splash"
+                   android:layout_marginTop="16dp"
+                   android:layout_marginLeft="35dp"
+                   android:scaleType="fitXY"
+                   android:layout_gravity="left"/>
+       </LinearLayout>
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_margin="5dp">
+
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/twitter_pic_4"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="6dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/twitter_pic_5"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:id="@+id/twitter_pic_6"
+                           android:background="@drawable/background_splash"
+                           android:layout_marginTop="16dp"
+                           android:layout_marginLeft="35dp"
+                           android:scaleType="fitXY"
+                           android:layout_gravity="left"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

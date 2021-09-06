@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:id="@+id/cardView"
+                                   app:cardUseCompatPadding="true"
+                                   android:layout_width="170dp"
+                                   android:layout_height="160dp"
+                                   android:layout_gravity="center"
+                                   >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+            <ImageView android:layout_width="50dp"
+                android:layout_height="50dp"
+                       android:id="@+id/image_influencer"
+                android:background="@drawable/background_splash"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_gravity="left"/>
+
+            <LinearLayout android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="50dp"
+                            android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="3"
+                     android:id="@+id/tv_connects"
+                    android:textStyle="bold"
+                    android:textSize="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:textColor="#000000"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Connects"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/grey"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+        >
+
+    <LinearLayout android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="100"
+            android:id="@+id/tv_posts"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_margin="2dp"
+            android:layout_gravity="center"
+
+            android:textColor="#000000"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Posts"
+           android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textSize="12dp"
+           android:layout_gravity="center"
+            android:textColor="@color/grey"/>
+
+
+    </LinearLayout>
+        <LinearLayout android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="210"
+                android:id="@+id/tv_followers"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:textColor="#000000"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Followers"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_margin="2dp"
+                android:textColor="@color/grey"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

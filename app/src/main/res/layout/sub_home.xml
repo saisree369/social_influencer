@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:background="@color/lavendar">
+
+    <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Advertisements"
+            android:layout_margin="10dp"
+            android:id="@+id/tv1"/>
+
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingEnd="@dimen/card_padding"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding"
+            android:paddingStart="@dimen/card_padding"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
