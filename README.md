@@ -1,8 +1,27 @@
 # Social_influencer
 
-[![Website](https://img.shields.io/badge/View-website-blue)](https:talenalexander.com/industry-news/10-influencers-who-have-an-active-presence-on-social-media/#)
-
+[![Website](https://img.shields.io/badge/View-website-blue)](https:talenalexander.com/industry-news/10-influencers-who-have-an-active-presence-on-social-media/)
 Android application for Advertiser to make a deal with top-rated influencers to publish their content on social-media-platforms and do the campaigning.
+
+## Contents
+- [Submission or project name](#submission-or-project-name)
+  - [Contents](#contents)
+  - [Short description](#short-description)
+    - [What's the problem](#whats-the-problem)
+    - [How can technolgy help?](#how-can-technology-help)
+    - [The idea](#the-idea)
+  - [Demo Video](#demo-video)
+  - [The architecture](#the-architecture)
+  - [Long description](#long-description)
+  - [Project roadmap](#project-roadmap)
+  - [Getting Started](#getting-started)
+  - [Built-with](#built-with)
+  - [Contributing](#contributing)
+  - [Versioning](#versioning)
+  - [Acknowledgments](#acknowledgments)
+  
+  ## Short description
+
 
 Summary:
 Developed UI/UX and functionality for Advertiser & Influencer application
