@@ -8,8 +8,6 @@ Android application for Advertiser to make a deal with top-rated influencers to 
 - [Submission or project name](#submission-or-project-name)
   - [Contents](#contents)
   - [Short description](#short-description)
-    - [What's the problem](#whats-the-problem)
-    - [How can technolgy help?](#how-can-technology-help)
     - [The idea](#the-idea)
   - [Demo Video](#demo-video)
   - [The architecture](#the-architecture)
@@ -23,8 +21,11 @@ Android application for Advertiser to make a deal with top-rated influencers to 
   
 ## Short description
 Advertiser explors and selects the influencer who is doing tremendous in marketing point of view.He makes deal with influencer on marketing/campaigning his products by fixing budget.
+
 Influencer gets the request in the form of notification and if he likes the deal, he accepts and post it in social media platforms and send an acknowledgement to the advertiser.
 
+### The idea
+Creating platform for the advertisers and influencers to interact and publish their products on social-media platforms and get profited
    
 Summary:
 Developed UI/UX and functionality for Advertiser & Influencer application
