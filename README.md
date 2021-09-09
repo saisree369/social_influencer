@@ -1,6 +1,7 @@
 # Social_influencer
 
 [![Website](https://img.shields.io/badge/View-website-blue)](https:talenalexander.com/industry-news/10-influencers-who-have-an-active-presence-on-social-media/)
+
 Android application for Advertiser to make a deal with top-rated influencers to publish their content on social-media-platforms and do the campaigning.
 
 ## Contents
@@ -20,9 +21,11 @@ Android application for Advertiser to make a deal with top-rated influencers to 
   - [Versioning](#versioning)
   - [Acknowledgments](#acknowledgments)
   
-  ## Short description
+## Short description
+Advertiser explors and selects the influencer who is doing tremendous in marketing point of view.He makes deal with influencer on marketing/campaigning his products by fixing budget.
+Influencer gets the request in the form of notification and if he likes the deal, he accepts and post it in social media platforms and send an acknowledgement to the advertiser.
 
-
+   
 Summary:
 Developed UI/UX and functionality for Advertiser & Influencer application
   SignIn,Register & User Profile Management
