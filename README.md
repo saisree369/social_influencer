@@ -26,7 +26,12 @@ Influencer gets the request in the form of notification and if he likes the deal
 
 ### The idea
 Creating platform for the advertisers and influencers to interact and publish their products on social-media platforms and get profited
-   
+
+## The architecture
+
+![Alt text](https://github.com/saisree369/social_influencer/blob/main/app/src/main/res/drawable/si_flowchart.png?raw=true "Flow")
+
+
 Summary:
 Developed UI/UX and functionality for Advertiser & Influencer application
   SignIn,Register & User Profile Management
