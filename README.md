@@ -41,7 +41,19 @@ Creating platform for the advertisers and influencers to interact and publish th
 
 [More detail is available here](https://github.com/saisree369/social_influencer/blob/main/docs/Social%20Advertiser_documentation.docx)
 
+## Project roadmap
 
+The project currently does the following things
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+Feature-1 : 
+
+Registering of Advertiser & Influencer and their connection flow.
+
+![Alt text](https://github.com/saisree369/social_influencer/blob/main/app/src/main/res/drawable/si_flowchart.png?raw=true "Flow")
 
 Summary:
 Developed UI/UX and functionality for Advertiser & Influencer application
