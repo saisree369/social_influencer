@@ -31,6 +31,13 @@ Creating platform for the advertisers and influencers to interact and publish th
 
 ![Alt text](https://github.com/saisree369/social_influencer/blob/main/app/src/main/res/drawable/si_flowchart.png?raw=true "Flow")
 
+ 1.The advertiser sends the campaign request to the influencer selected.
+
+2. Influencer checks the details of the product that needs to be campaigned.
+
+3. Influencer accepts the request and post it on social media platforms.
+
+
 
 Summary:
 Developed UI/UX and functionality for Advertiser & Influencer application
