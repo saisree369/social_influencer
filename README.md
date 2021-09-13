@@ -37,6 +37,10 @@ Creating platform for the advertisers and influencers to interact and publish th
 
 3. Influencer accepts the request and post it on social media platforms.
 
+## Long Description
+
+[More detail is available here](https://github.com/saisree369/social_influencer/blob/main/docs/Social%20Advertiser_documentation.docx)
+
 
 
 Summary:
