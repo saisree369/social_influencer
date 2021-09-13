@@ -1,6 +1,6 @@
 # Social Influencer
 
-[![Website](https://img.shields.io/badge/View-website-blue)](https:talenalexander.com/industry-news/10-influencers-who-have-an-active-presence-on-social-media/)
+[Website](https:talenalexander.com/industry-news/10-influencers-who-have-an-active-presence-on-social-media/)
 
 Android application for Advertiser to make a deal with top-rated influencers to publish their content on social-media-platforms and do the campaigning.
 
