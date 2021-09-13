@@ -107,7 +107,11 @@ The url's which is used for fetching data is generic. You can opt for your own f
 
 ## Privacy
 
-[Privacy](https://docs.google.com/document/d/18X1ZqY-QR5Bd8IuWTGHp52gI5PMvVoePyDFXTS3PO4w/edit)
+[Privacy Statement](https://docs.google.com/document/d/18X1ZqY-QR5Bd8IuWTGHp52gI5PMvVoePyDFXTS3PO4w/edit)
+
+## Acknowledgements
+
+- Based on [Call For Code's README template](https://github.com/Call-for-Code/Project-Sample/blob/main/README.md)
 
 
   
