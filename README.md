@@ -16,6 +16,7 @@ Android application for Advertiser to make a deal with top-rated influencers to 
   - [Getting Started](#getting-started)
   - [Compatible devices](#compatible-devices)
   - [Project screenshots](#project-screenshots)
+  - [Project APK](#project-apk)
   - [Privacy](#privacy)
   - [Acknowledgments](#acknowledgments)
   
@@ -104,6 +105,10 @@ The url's which is used for fetching data is generic. You can opt for your own f
 ## Project Screenshots
 
 [Please find all screen screenshots of the project](https://github.com/saisree369/social_influencer/blob/main/docs/images/)
+
+## Project APK
+
+[Please find APK for download](https://drive.google.com/file/d/1qiJ74INr-ckxtp1i86j0ndhSiH1AT0Xp/view?usp=drivesdk)
 
 ## Privacy
 
