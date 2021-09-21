@@ -61,6 +61,19 @@ Influencer Screen:
 
 3. Influencer accepts the request and post it on social media platforms.
 
+### Login/Register Flow of Advertiser & Influencer
+
+![Alt text](https://github.com/saisree369/social_influencer/blob/main/app/src/main/res/drawable/Flow_1.PNG?raw=true "Flow")
+
+### Advertiser Campaign Request Flow
+
+![Alt text](https://github.com/saisree369/social_influencer/blob/main/app/src/main/res/drawable/Flow_2.PNG?raw=true "Flow")
+
+### Influencer posting Campaign in social-media platforms flow
+
+![Alt text](https://github.com/saisree369/social_influencer/blob/main/app/src/main/res/drawable/Flow_3.PNG?raw=true "Flow")
+
+
 ## Long Description
 
 [More detail is available here](https://github.com/saisree369/social_influencer/blob/main/docs/Social%20Advertiser_documentation.docx)
