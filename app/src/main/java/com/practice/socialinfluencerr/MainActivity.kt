@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent);
         }
 
-        var camera_pic = findViewById(R.id.info_logo) as ImageView;
-        camera_pic.setOnClickListener {
-            val intent = Intent(this, SampleCameraScreen::class.java)
-            startActivity(intent);
-        }
+//        var camera_pic = findViewById(R.id.info_logo) as ImageView;
+//        camera_pic.setOnClickListener {
+//            val intent = Intent(this, SampleCameraScreen::class.java)
+//            startActivity(intent);
+//        }
 
 
 
